@@ -1,7 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
   
-  const vConsole = new VConsole();
-  
   const textarea = document.querySelector('.textarea');
   const button = document.querySelector('.button');
   const inputs = document.querySelectorAll('.input');

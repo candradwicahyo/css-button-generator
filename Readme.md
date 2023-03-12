@@ -35,4 +35,4 @@ git clone https://github.com/candradwicahyo/css-button-generator.git
 
 ![preview](https://github.com/candradwicahyo/css-button-generator/blob/master/image.jpg)
 
-[tekan link ini](https://candradwicahyo.github.io/css-button-generator)
+[tekan link ini](https://candradwicahyo.github.io/css-button-generator) untuk mencoba demo

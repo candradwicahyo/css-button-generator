@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>css button generator</title>
+</head>
+<body>
+
+  <div class="container overflow-hidden">
+    <div class="row">
+      <div class="col-md my-4">
+
+        <div class="row">
+          <div class="col-md-7">
+            <!-- accordion -->
+            <div class="accordion" id="accordionExample">
+              <!-- accordion item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    text 
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <!-- form -->
+                    <!-- text button -->
+                    <div class="form-group mb-2">
+                      <label for="text" class="form-label fw-light">text button</label>
+                      <input type="text" id="text" class="form-control input" placeholder="enter text">
+                    </div>
+                    <!-- akhir text button -->
+                    <div class="row mb-2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- font size -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="font-size" class="form-label fw-light">font size</label>
+                            <input type="number" id="font-size" class="form-control input" placeholder="font size">
+                          </div>
+                        </div>
+                        <!-- akhir font size -->
+                        <div class="mx-1"></div>
+                        <!-- font weight -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="font-weight" class="form-label fw-light">font weight</label>
+                            <input type="number" id="font-weight" class="form-control input" placeholder="font weight">
+                          </div>
+                        </div>
+                        <!-- akhir font weight -->
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- font color -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="font-color" class="form-label fw-light">font color</label>
+                            <input type="text" id="font-color" class="form-control input" placeholder="font color">
+                          </div>
+                        </div>
+                        <!-- akhir font color -->
+                        <div class="mx-1"></div>
+                        <!-- letter spacing -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="letter-spacing" class="form-label fw-light">letter spacing</label>
+                            <input type="number" id="letter-spacing" class="form-control input" placeholder="letter spacing">
+                          </div>
+                        </div>
+                        <!-- akhir letter spacing -->
+                      </div>
+                    </div>
+                    <!-- akhir dari form -->
+                  </div>
+                </div>
+              </div>
+              <!-- akhir accordion item 1 -->
+              <!-- accordion item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    padding
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <!-- form -->
+                    <div class="row mb-2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- padding top -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="padding-top" class="form-label fw-light">padding top</label>
+                            <input type="number" id="padding-top" class="form-control input" placeholder="padding top" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir padding top -->
+                        <div class="mx-1"></div>
+                        <!-- padding right -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="padding-right" class="form-label fw-light">padding right</label>
+                            <input type="number" id="padding-right" class="form-control input" placeholder="padding right" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir padding right -->
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- padding bottom -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="padding-bottom" class="form-label fw-light">padding bottom</label>
+                            <input type="number" id="padding-bottom" class="form-control input" placeholder="padding bottom" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir padding bottom -->
+                        <div class="mx-1"></div>
+                        <!-- padding left -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="padding-left" class="form-label fw-light">padding left</label>
+                            <input type="number" id="padding-left" class="form-control input" placeholder="padding left" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir padding left -->
+                      </div>
+                    </div>
+                    <!-- akhir form -->
+                  </div>
+                </div>
+              </div>
+              <!-- akhir accordion item 2 -->
+              <!-- accordion item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    box shadow
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <!-- form -->
+                    <div class="row mb-2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- horizontal -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <label for="horizontal" class="form-label fw-light">horizontal</label>
+                              <label for="" class="form-label label-range fw-normal">0</label>
+                            </div>
+                            <input type="range" id="horizontal" class="form-range range" min="-100" max="100" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir horizontal -->
+                        <div class="mx-1"></div>
+                        <!-- vertical -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <label for="vertical" class="form-label fw-light">vertical</label>
+                              <label for="" class="form-label label-range fw-normal">0</label>
+                            </div>
+                            <input type="range" id="vertical" class="form-range range" min="-100" max="100" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir vertical -->
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- blur -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <label for="blur" class="form-label fw-light">blur</label>
+                              <label for="" class="form-label label-range fw-normal">0</label>
+                            </div>
+                            <input type="range" id="blur" class="form-range range" min="0" max="100" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir blur -->
+                        <div class="mx-1"></div>
+                        <!-- spread -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <label for="spread" class="form-label fw-light">spread</label>
+                              <label for="" class="form-label label-range fw-normal">0</label>
+                            </div>
+                            <input type="range" id="spread" class="form-range range" min="-100" max="100" valud="0">
+                          </div>
+                        </div>
+                        <!-- akhir spread -->
+                      </div>
+                    </div>
+                    <!-- shadow color -->
+                    <div class="form-group">
+                      <label for="shadow-color" class="form-label fw-light">shadow color</label>
+                      <input type="text" id="shadow-color" class="form-control input" placeholder="shadow color" value="black">
+                    </div>
+                    <!-- akhir shadow color -->
+                    <!-- akhir form -->
+                  </div>
+                </div>
+              </div>
+              <!-- akhir accordion item 3 -->
+              <!-- accordion item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    border and background
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <!-- form -->
+                    <div class="row mb-2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <!-- border -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="border" class="form-label fw-light">border</label>
+                            <input type="number" id="border" class="form-control input" placeholder="border">
+                          </div>
+                        </div>
+                        <!-- akhir border -->
+                        <div class="mx-3"></div>
+                        <!-- border radius -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <div class="d-flex justify-content-between align-items-center">
+                              <label for="border-radius" class="form-label fw-light">border radius</label>
+                              <label for="" class="form-label label-range fw-normal">0</label>
+                            </div>
+                            <input type="range" id="border-radius" class="form-range range" min="0" max="100" value="0">
+                          </div>
+                        </div>
+                        <!-- akhir border radius -->
+                      </div>
+                    </div>
+                    <!-- background color -->
+                    <div class="form-group">
+                      <label for="bg-color" class="form-label fw-light">background color</label>
+                      <input type="text" id="bg-color" class="form-control input" placeholder="background color">
+                    </div>
+                    <!-- akhir background color -->
+                    <!-- akhir form -->
+                  </div>
+                </div>
+              </div>
+              <!-- akhir accordion item 4 -->
+            </div>
+            <!-- akhir dari element accordion -->
+          </div>
+          <div class="col-md">
+            <div class="frame my-3">
+              <button class="btn-custom">click here</button>
+            </div>
+            <button class="btn btn-primary py-2 px-3 rounded-1 w-100 btn-copy">copy</button>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-7 mx-auto">
+            <!-- input code -->
+            <textarea cols="30" rows="14" class="form-control input-code mt-5 mb-4 fw-light" readonly></textarea>
+            <!-- footer -->
+            <div class="text-center">
+              <span class="fw-light">
+                created by 
+                <a href="https://instagram.com/candradwicahyo18" class="text-decoration-none fw-normal text-primary">
+                  candra dwi cahyo
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

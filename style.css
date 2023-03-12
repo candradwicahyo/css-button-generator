@@ -1,0 +1,14 @@
+.frame {
+  position: relative;
+  width: 109%;
+  height: 250px;
+  background: #f4f7fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.input-code {
+  font-size: 13px;
+}
